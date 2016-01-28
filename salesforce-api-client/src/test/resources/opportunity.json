@@ -1,0 +1,92 @@
+{
+    "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v35.0/sobjects/Opportunity/0068A000001sxanQAA"
+    },
+    "Id": "0068A000001sxanQAA",
+    "Account": {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v35.0/sobjects/Account/0018A000002KQ7bQAG"
+        },
+        "Id": "0018A000002KQ7bQAG",
+        "OwnerId": "005C00000079DQSIA2",
+        "Name": "Kip's Karma Kiosks",
+        "Type": "Current Journey Customer"
+    },
+    "CloseDate": "2015-09-02",
+    "Name": "New PSS",
+    "StageName": "Closed Won",
+    "Project_Application_Name__c": "The Manhattan Project",
+    "OSS_Support_Only__c": false,
+    "Contracts__r": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+            {
+                "attributes": {
+                    "type": "Contract",
+                    "url": "/services/data/v35.0/sobjects/Contract/8008A0000008znAQAQ"
+                },
+                "Id": "8008A0000008znAQAQ",
+                "Opportunity__c": "0068A000001sxanQAA",
+                "StartDate": "2015-09-02",
+                "EndDate": "2016-09-01"
+            }
+        ]
+    },
+    "OpportunityLineItems": {
+        "totalSize": 2,
+        "done": true,
+        "records": [
+            {
+                "attributes": {
+                    "type": "OpportunityLineItem",
+                    "url": "/services/data/v35.0/sobjects/OpportunityLineItem/00k8A0000031NbTQAU"
+                },
+                "Id": "00k8A0000031NbTQAU",
+                "Quantity": 1,
+                "PricebookEntry": {
+                    "attributes": {
+                        "type": "PricebookEntry",
+                        "url": "/services/data/v35.0/sobjects/PricebookEntry/01uC000000B4WqNIAV"
+                    },
+                    "Id": "01uC000000B4WqNIAV",
+                    "Product2": {
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v35.0/sobjects/Product2/01tC0000004KKq2IAG"
+                        },
+                        "Id": "01tC0000004KKq2IAG",
+                        "Name": "ConductR - Premier Subscription with 24/7 Support",
+                        "Family": "Subscription"
+                    }
+                }
+            },
+            {
+                "attributes": {
+                    "type": "OpportunityLineItem",
+                    "url": "/services/data/v35.0/sobjects/OpportunityLineItem/00k8A0000031NbUQAU"
+                },
+                "Id": "00k8A0000031NbUQAU",
+                "Quantity": 1,
+                "PricebookEntry": {
+                    "attributes": {
+                        "type": "PricebookEntry",
+                        "url": "/services/data/v35.0/sobjects/PricebookEntry/01uC000000AoOZhIAN"
+                    },
+                    "Id": "01uC000000AoOZhIAN",
+                    "Product2": {
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v35.0/sobjects/Product2/01tC0000004IrjMIAS"
+                        },
+                        "Id": "01tC0000004IrjMIAS",
+                        "Name": "Project Success Subscription - Premier + 24/7 Support",
+                        "Family": "Subscription"
+                    }
+                }
+            }
+        ]
+    }
+}

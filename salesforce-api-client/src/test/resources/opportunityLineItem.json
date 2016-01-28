@@ -1,0 +1,24 @@
+{
+    "attributes": {
+        "type": "OpportunityLineItem",
+        "url": "/services/data/v32.0/sobjects/OpportunityLineItem/00k8A0000031NbUQAU"
+    },
+    "Id": "00k8A0000031NbUQAU",
+    "Quantity": 1,
+    "PricebookEntry": {
+        "attributes": {
+            "type": "PricebookEntry",
+            "url": "/services/data/v32.0/sobjects/PricebookEntry/01uC000000AoOZhIAN"
+        },
+        "Id": "01uC000000AoOZhIAN",
+        "Product2": {
+            "attributes": {
+                "type": "Product2",
+                "url": "/services/data/v32.0/sobjects/Product2/01tC0000004IrjMIAS"
+            },
+            "Id": "01tC0000004IrjMIAS",
+            "Name": "Project Success Subscription - Premier + 24/7 Support",
+            "Family": "Subscription"
+        }
+    }
+}

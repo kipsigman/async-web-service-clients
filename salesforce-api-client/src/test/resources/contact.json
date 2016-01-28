@@ -1,0 +1,22 @@
+{
+    "attributes": {
+        "type": "Contact",
+        "url": "/services/data/v32.0/sobjects/Contact/0038A000001EPqkQAG"
+    },
+    "Id": "0038A000001EPqkQAG",
+    "Account": {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v32.0/sobjects/Account/0018A000002KQ7bQAG"
+        },
+        "Id": "0018A000002KQ7bQAG",
+        "OwnerId": "005C00000079DQSIA2",
+        "Name": "Kip's Karma Kiosks",
+        "Type": "Current Journey Customer"
+    },
+    "FirstName": "Johnny",
+    "LastName": "Utah",
+    "Email": "johnny.utah@fbi.gov",
+    "Phone": null,
+    "Current_Subscriber__c": false
+}
