@@ -7,11 +7,11 @@ import com.typesafe.config.Config
 
 import dispatch.Req
 import dispatch.url
+
 import play.api.http.HttpVerbs
-import play.api.libs.functional.syntax.functionalCanBuildApplicative
-import play.api.libs.functional.syntax.toFunctionalBuilderOps
 import play.api.libs.json._
 import play.api.libs.json.Reads._
+import play.api.libs.functional.syntax._
 
 import kipsigman.ws.client.RestWebServiceClient
 

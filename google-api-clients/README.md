@@ -6,7 +6,7 @@ This module contains functionality for integrating with Google APIs.
 1.  Add library to managed dependencies in build.sbt.
 
     ```scala
-    libraryDependencies += "kipsigman.ws" %% "google-api-clients" % "0.1.0"
+    libraryDependencies += "kipsigman" %% "google-api-clients" % "0.2.0"
     ```
 
 2.  Create a client in your app.

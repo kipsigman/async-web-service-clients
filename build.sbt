@@ -3,9 +3,11 @@ import Dependencies._
 name := "async-web-service-clients"
 
 lazy val commonSettings = Seq(
-  scalaVersion := "2.11.7",
-  organization := "kipsigman.ws",
-  version := "0.1.0"
+  scalaVersion := "2.11.8",
+  organization := "kipsigman",
+  licenses += ("Apache-2.0", url("https://github.com/kipsigman/async-web-service-clients/blob/master/LICENSE")),
+  homepage := Some(url("https://github.com/kipsigman/async-web-service-clients")),
+  scmInfo := Some(ScmInfo(url("https://github.com/kipsigman/async-web-service-clients"), "scm:git:git://github.com:kipsigman/async-web-service-clients.git"))
 )
 
 lazy val webServiceClient = (project in file("web-service-client")).

@@ -6,7 +6,7 @@ This module contains functionality for integrating with Salesforce's API.
 1.  Add library to managed dependencies in build.sbt.
 
     ```scala
-    libraryDependencies += "kipsigman.ws" %% "salesforce-api-client" % "0.1.0"
+    libraryDependencies += "kipsigman" %% "salesforce-api-client" % "0.2.0"
     ```
 
 2.  Create a SalesforceService in your app.

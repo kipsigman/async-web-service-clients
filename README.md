@@ -7,3 +7,5 @@ A set of Scala asynchronous web service clients for popular APIs. See client REA
   * Google YouTube API
 * salesforce-api-client
   * Salesforce API
+* web-service-client
+  * Abstract REST web service client base for other clients

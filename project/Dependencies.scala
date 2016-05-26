@@ -2,8 +2,8 @@ import sbt._
 
 object Dependencies {
 
-  lazy val playVersion = "2.4.6"
-  lazy val akkaVersion	= "2.3.14"
+  lazy val playVersion = "2.5.3"
+  lazy val akkaVersion	= "2.4.4"
 
   lazy val akka = Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion
@@ -24,7 +24,7 @@ object Dependencies {
   )
  
   lazy val scalaTest = Seq(
-    "org.scalatest" %% "scalatest" % "2.2.5" % "test,it",
+    "org.scalatest" %% "scalatest" % "2.2.6" % "test,it",
     "org.mockito" % "mockito-core" % "1.10.19" % "test,it"
   )
 
